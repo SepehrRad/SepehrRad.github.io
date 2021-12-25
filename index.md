@@ -1,8 +1,9 @@
-# My Project Portfolio
+# Project Portfolio
 
 ---
 
 ## Data Science
+---
 
 ### Impact of Covid-19 on New York Cab Industry & Public Mobility
 
@@ -40,12 +41,14 @@
 ---
 
 ## Business Intelligence
+---
 
 ### Creating an ETL Pipeline for an Enterprise Web Application
 
 Final Bachelor project incorporation with Innovas GmbH
 
 **Project Description:** Delivering Encrypted Data to ...
+---
 
 ### Development of business intelligence strategies for small and medium-sized companies in the health care industry
 
