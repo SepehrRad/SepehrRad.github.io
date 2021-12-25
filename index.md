@@ -1,35 +1,30 @@
-## Portfolio
+## My Project Portfolio
 
 ---
 
-### Category Name 1 
+### Data Science
 
-[Project 1 Title](/sample_page)
+[Impact of Covid-19 on New York Cab Industry & Public Mobility](https://github.com/SepehrRad/pds21)
+#### Final Programming Data Science Course Project - University of Cologne
+<img src="images/dummy_thumbnail.jpg?raw=true"/>
+
+[Sustainable Mobility in Heidelberg & Marburg](/https://github.com/SepehrRad/analyticsAndapps)
+#### Final Analytics & Application Course Project - University of Cologne
+
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
+[Project 3 Title](https://github.com/SepehrRad/aaa21)
+#### Final Advanced Analytics & Application Course Project - University of Cologne
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
----
+### Business Intelligence
 
-### Category Name 2
-
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
-
----
-
-
+### Software Engineering
 
 
 ---
-<p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
-<!-- Remove above link if you don't want to attibute -->
+
+
