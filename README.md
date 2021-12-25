@@ -1,1 +1,1 @@
-Checkout my project portfolio at https://github.com/SepehrRad
+Checkout my project portfolio at https://sepehrrad.github.io/
