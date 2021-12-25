@@ -46,7 +46,7 @@
 
 ### Creating an ETL Pipeline for an Enterprise Web Application
 
-Final Bachelor project incorporation with Innovas GmbH
+Final Bachelor project in cooperation with Innovas GmbH
 
 **Project Description:** Delivering Encrypted Data to
 
@@ -54,7 +54,7 @@ Final Bachelor project incorporation with Innovas GmbH
 
 ### Development of business intelligence strategies for small and medium-sized companies in the health care industry
 
-Bachelor thesis incorporation with Innovas GmbH
+Bachelor thesis in cooperation with Innovas GmbH
 
 **Project Description:** Description
 
