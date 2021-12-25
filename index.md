@@ -52,7 +52,7 @@ Final Bachelor project in cooperation with Innovas GmbH
 
 ---
 
-### Development of business intelligence strategies for small and medium-sized companies in the health care industry
+### Development of Business Intelligence Strategies for Small and Medium-sized Companies in the Health Care Industry
 
 Bachelor thesis in cooperation with Innovas GmbH
 
