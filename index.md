@@ -16,20 +16,20 @@ This study focused on the dynamics of the ride-hailing business in Chicago. The 
 The Project had four distinct parts: EDA, customer clustering and analysis, demand prediction in geo-temporal resolution, charging location optimization.
 
 In the first part of the project, we visualized the taxi trip data, in different spatial and temporal resolutions, to get an insight into Chicago’s taxi demand patterns. The data was geographically discretized using Uber’s H3 library. This approach yielded very interesting results. E.g. 90% of all trips take place in only ten Community Areas of Chicago, which are all part of the city center or at the airport. Or the fact that the overall demand increases during the morning stays constant over the course of the day, and starts rising in the evening with a peak at 19:00.
-<img src="images/AAA_starttimes.png?raw=true"/>
+<div><img src="images/AAA_starttimes.png?raw=true"/></div>
 <img src="images/AAA_pickups_ca.png?raw=true" width="440" height="580"/>
 
 
 The goal of the second part of the project was getting a better understanding of how the customers are using mobility services and proposing optimization suggestions for the business operations. After creating a set of relevant geo-temporal features such as airport distance and holidays, the customers were assigned into six distinct clusters, using both soft (GMM) and hard clustering (KNN) approach:
 
-| Cluster | Label | Trip Start Hour | Trip Kilometers | Trip Minutes | % Trips |
-| --- | --- | --- | --- | --- | --- |
+| Cluster | Label | Trip Start Hour | Trip Kilometers | Trip Minutes | Trips |
 | 0 | `After Party Customers` | 0-2 | 1 - 4 | 5 - 10 | 9.8 |
 | 1 | `Urban Evening Customers` | 19-22 | 1 - 3 | 5 - 9 | 21.9 |
 | 2 | `Suburban Evening Customers` | 18-22 | 4 - 7 |  4 - 18 | 14.7 |
 | 3 | `Daytime Short-Distance Customers` | 10-15 | 1 - 2 | 4 - 7 | 19.0 |
 | 4 | `Long Distance Customers` | 5 - 14 | 4 - 10 | 16 - 22 | 9.9 |
 | 5 | `Daytime Medium Distance Customers` | 9 -15 | 2 - 4 | 10 - 13 | 19.0 |
+
 <img src="images/AAA_BoxPlot_SoftClustering.png?raw=true"/>
 <img src="images/AAA_Scatter_SoftClustering.png?raw=true"/>
 
