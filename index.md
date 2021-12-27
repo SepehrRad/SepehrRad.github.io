@@ -16,8 +16,9 @@ The aim of this project was to analyze the impact of COVID-19 on the yellow cab 
 The project was divided into two main parts. In the first section, the EDA part, all trips were interactively visualized using Panel and multiple visualization libraries. (E.g. Plotly, Folium)
 
 The explanatory analysis showed the taxi hot zones as well as the impact of Covid-19 on public mobility:
-<img src="images/PDS_Hot_Zones_NYC.png?raw=true"/>
-</br>
+<br></br>
+<img src="images/PDS_Pickup_Hot_Zones_NYC.png?raw=true"/>
+<br></br>
 <img src="images/PDS_Corona_Impact_NYC.png?raw=true"/>
 
 
