@@ -16,14 +16,15 @@ This study focused on the dynamics of the ride-hailing business in Chicago. The 
 The Project had four distinct parts: EDA, customer clustering and analysis, demand prediction in geo-temporal resolution, charging location optimization.
 
 In the first part of the project, we visualized the taxi trip data, in different spatial and temporal resolutions, to get an insight into Chicago’s taxi demand patterns. The data was geographically discretized using Uber’s H3 library. This approach yielded very interesting results. E.g. 90% of all trips take place in only ten Community Areas of Chicago, which are all part of the city center or at the airport. Or the fact that the overall demand increases during the morning stays constant over the course of the day, and starts rising in the evening with a peak at 19:00.
-
+<img src="images/AAA_starttimes.png?raw=true"/><br>
 <img src="images/AAA_pickups_ca.png?raw=true"/>
-<img src="images/AAA_starttimes.png?raw=true"/>
+
 
 The goal of the second part of the project was getting a better understanding of how the customers are using mobility services and proposing optimization suggestions for the business operations. After creating a set of relevant geo-temporal features such as airport distance and holidays, the customers were assigned into six distinct clusters, using both soft (GMM) and hard clustering (KNN) approach:
 
-<img src="images/AAA_Customer_Clusters_Chicago.png?raw=true"/>
+<img src="images/AAA_Customer_Clusters_Chicago.png?raw=true"/><br>
 <img src="images/AAA_BoxPlot_SoftClustering.png?raw=true"/>
+<img src="images/AAA_Scatter_SoftClustering.png?raw=true"/>
 
 The third part of the project aimed at predicting demand in different geo-temporal resolutions. To get better model performance in addition to synthetic geo-temporal features, Chicago weather information was gathered and added to the model's input. Deep Artificial Neural Networks and SVMs were used for this task:
 
