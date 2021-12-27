@@ -17,7 +17,7 @@ The Project had four distinct parts: EDA, customer clustering and analysis, dema
 
 In the first part of the project, we visualized the taxi trip data, in different spatial and temporal resolutions, to get an insight into Chicago’s taxi demand patterns. The data was geographically discretized using Uber’s H3 library. This approach yielded very interesting results. E.g. 90% of all trips take place in only ten Community Areas of Chicago, which are all part of the city center or at the airport. Or the fact that the overall demand increases during the morning stays constant over the course of the day, and starts rising in the evening with a peak at 19:00.
 <div><img src="images/AAA_starttimes.png?raw=true"/></div>
-<img src="images/AAA_pickups_ca.png?raw=true" width="440" height="580"/>
+<div><img src="images/AAA_pickups_ca.png?raw=true" width="414" height="580"/></div>
 
 
 The goal of the second part of the project was getting a better understanding of how the customers are using mobility services and proposing optimization suggestions for the business operations. After creating a set of relevant geo-temporal features such as airport distance and holidays, the customers were assigned into six distinct clusters, using both soft (GMM) and hard clustering (KNN) approach:
@@ -37,9 +37,9 @@ The third part of the project aimed at predicting demand in different geo-tempor
 
 <img src="images/AAA_prediction_results.png?raw=true"/>
 
+Finally, in the fourth section of the project, the charging stations allocation problem for electric taxi vehicles was tackled. This was first formulated mathematically as a linear programming problem under constraints and then solved using the Python PuLP library:
 
-
-
+<img src="images/AAA_charging_locs.png?raw=true"/>
 ---
 
 ### Impact of Covid-19 on New York Cab Industry & Public Mobility
