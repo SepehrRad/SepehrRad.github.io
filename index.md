@@ -11,7 +11,7 @@
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/SepehrRad/pds21)
 
-**Project Description:** The aim of this project was to analyze the impact of COVID-19 on the yellow cab industry in New York. Furthermore, using the open-source NYC Taxi & Limousine Commission (TLC) data in 2020 the project aims to unfold opportunities and recommendations to the industry.
+The aim of this project was to analyze the impact of COVID-19 on the yellow cab industry in New York. Furthermore, using the open-source NYC Taxi & Limousine Commission (TLC) data in 2020 the project aims to unfold opportunities and recommendations to the industry.
 
 The project was divided into two main parts. In the first section, the EDA part, all trips were interactively visualized using Panel and multiple visualization libraries. (E.g. Plotly, Folium)
 
