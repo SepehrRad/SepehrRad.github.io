@@ -16,9 +16,9 @@ The aim of this project was to analyze the impact of COVID-19 on the yellow cab 
 The project was divided into two main parts. In the first section, the EDA part, all trips were interactively visualized using Panel and multiple visualization libraries. (E.g. Plotly, Folium)
 
 The explanatory analysis showed the taxi hot zones as well as the impact of Covid-19 on public mobility:
-<br></br>
+<br>
 <img src="images/PDS_Pickup_Hot_Zones_NYC.png?raw=true"/>
-<br></br>
+<br>
 <img src="images/PDS_Corona_Impact_NYC.png?raw=true"/>
 
 
@@ -26,9 +26,9 @@ In the second section, the prediction modeling part, three models were built to 
 
 | Model | Prediction Target | Evaluation Metric |
 | --- | --- | --- |
-| `Random Forest Classifier` | Payment Type | 0.88 Percision     0.81 F1 |
-| `Random Forest Regressor` | Fare Amount ($) | 0.385 MAE     1.289 RMSE |
-| `Random Forest Regressor` | Trip Distance (KM) | 0.407 MAE  0.665 RMSE |
+| `Random Forest Classifier` | Payment Type | 0.88 Percision - 0.81 F1 |
+| `Random Forest Regressor` | Fare Amount ($) | 0.385 MAE - 1.289 RMSE |
+| `Random Forest Regressor` | Trip Distance (KM) | 0.407 MAE - 0.665 RMSE |
 
 
 
