@@ -16,13 +16,15 @@ This study focused on the dynamics of the ride-hailing business in Chicago. The 
 The Project had four distinct parts: EDA, customer clustering and analysis, demand prediction in geo-temporal resolution, charging location optimization.
 
 In the first part of the project, we visualized the taxi trip data, in different spatial and temporal resolutions, to get an insight into Chicago’s taxi demand patterns. The data was geographically discretized using Uber’s H3 library. This approach yielded very interesting results. E.g. 90% of all trips take place in only ten Community Areas of Chicago, which are all part of the city center or at the airport. Or the fact that the overall demand increases during the morning stays constant over the course of the day, and starts rising in the evening with a peak at 19:00.
+
 <div><img src="images/AAA_starttimes.png?raw=true"/></div>
+
 <div><img src="images/AAA_pickups_ca.png?raw=true" width="414" height="580"/></div>
 
 
 The goal of the second part of the project was getting a better understanding of how the customers are using mobility services and proposing optimization suggestions for the business operations. After creating a set of relevant geo-temporal features such as airport distance and holidays, the customers were assigned into six distinct clusters, using both soft (GMM) and hard clustering (KNN) approach:
 
-| Cluster | Label | Trip Start Hour | Trip Kilometers | Trip Minutes | Trips |
+| Cluster | Label | Trip Start Hour | Trip Kilometers | Trip Minutes | Trips(%) |
 | 0 | `After Party Customers` | 0-2 | 1 - 4 | 5 - 10 | 9.8 |
 | 1 | `Urban Evening Customers` | 19-22 | 1 - 3 | 5 - 9 | 21.9 |
 | 2 | `Suburban Evening Customers` | 18-22 | 4 - 7 |  4 - 18 | 14.7 |
@@ -40,6 +42,8 @@ The third part of the project aimed at predicting demand in different geo-tempor
 Finally, in the fourth section of the project, the charging stations allocation problem for electric taxi vehicles was tackled. This was first formulated mathematically as a linear programming problem under constraints and then solved using the Python PuLP library:
 
 <img src="images/AAA_charging_locs.png?raw=true"/>
+
+
 ---
 
 ### Impact of Covid-19 on New York Cab Industry & Public Mobility
@@ -53,15 +57,14 @@ The aim of this project was to analyze the impact of COVID-19 on the yellow cab 
 The project was divided into two main parts. In the first section, the EDA part, all trips were interactively visualized using Panel and multiple visualization libraries. (E.g. Plotly, Folium)
 
 The explanatory analysis showed the taxi hot zones as well as the impact of Covid-19 on public mobility:
-<br><br>
+
 <img src="images/PDS_Pickup_Hot_Zones_NYC.png?raw=true"/>
-<br><br>
 <img src="images/PDS_Corona_Impact_NYC.png?raw=true"/>
 
 
 In the second section, the prediction modeling part, three models were built to predict fare amount, expected trip distance, and payment type. The apparent effect of covid-19 was taken into account by engineering an array of relevant features such as covid-19 lockdowns timeline as well as school restrictions. The Random Forest Classifier and Regressor were built using the XGBoost library and fine-tuned using grid search:
 
-| Model | Prediction Target | Evaluation Metric |
+| Model | Prediction Target | Evaluation Score |
 | --- | --- | --- |
 | `Random Forest Classifier` | Payment Type | 0.88 Percision - 0.81 F1 |
 | `Random Forest Regressor` | Fare Amount ($) | 0.385 MAE - 1.289 RMSE |
@@ -75,9 +78,37 @@ In the second section, the prediction modeling part, three models were built to 
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](/https://github.com/SepehrRad/analyticsAndapps)
 
-**Project Description:** Description
+Showing how fleet operators can make use of increasingly ubiquitous real-time data streams in order to optimize their bike supply management and thus boost customer satisfaction and revenue, was the focus of this project. The underlying hypothesis was that hourly, daily, seasonal, and weather-related trends influence and positively correlate with the demand of the bike-sharing system. In order to factor in weather-related demand fluctuations, the weather information was gathered and added to the NexBike data sets.
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+Five key performance indicators (KPIs) were developed to track and improve the business service level. These provided indications of the current operations and how well the fleet is doing in terms of utilization, revenue, coverage, and activations:
+
+<div><img src="images/aa_violin_plots.png?raw=true"/></div>
+
+<div><img src="images/aa_utilization.png?raw=true"/></div>
+
+<div><img src="images/aa_seasonalities.png?raw=true"/></div>
+
+<div><img src="images/aa_heidelberg_pickups.png?raw=true"/></div>
+
+Furthermore, three different prediction models were built using two heterogeneous data sets of Nextbike users in Heidelberg and Marburg from 2019. The customer demand was modeled in daily and hourly resolution using Time Series Analysis (Facebook Prophet), Ridge & Lasso Regression, and Random Forest Regressor (XGBoost). Based on the daily result we choose XGBoost model for final deployment.
+
+| City | Model | MAE | MAPE |
+| --- | --- | --- | --- |
+| Marburg | `FBProphet` | 110.69 | 28.77 % |
+| Marburg | `Polynomial Regression` | 89.6 | 32.96 % |
+| Marburg | `Ridge Regression` | 89.5 | 33.68 % |
+| Marburg | `Random Forest Regressor` | 76.26 | 33.38 % |
+| Heidelberg | `FBProphet` | 68.88 | 28.59 % |
+| Heidelberg|  `Polynomial Regression` | 53.19 | 40.84 % |
+| Heidelberg | `Ridge Regression` | 53.11 | 87.69 % |
+| Heidelberg | `Random Forest Regressor` | 47.35 | 26.31 % |
+
+
+Finally, the customers were clustered based on their demand patterns. Thus, enabling NextBike to identify trip types as well customer types:
+
+<div><img src="images/aa_heidelberg_clusters.png?raw=true"/></div>
+
+<div><img src="images/aa_marburg_clusters.png?raw=true"/></div>
 
 ---
 
