@@ -32,8 +32,14 @@ The goal of the second part of the project was getting a better understanding of
 | 4 | `Long Distance Customers` | 5 - 14 | 4 - 10 | 16 - 22 | 9.9 |
 | 5 | `Daytime Medium Distance Customers` | 9 -15 | 2 - 4 | 10 - 13 | 19.0 |
 
-<img src="images/AAA_BoxPlot_SoftClustering.png?raw=true"/>
-<img src="images/AAA_Scatter_SoftClustering.png?raw=true"/>
+<div class="row">
+  <div class="column">
+    <img src="images/AAA_BoxPlot_SoftClustering.png?raw=true"/>
+  </div>
+  <div class="column">
+    <img src="images/AAA_Scatter_SoftClustering.png?raw=true"/>
+  </div>
+</div>
 
 The third part of the project aimed at predicting demand in different geo-temporal resolutions. To get better model performance in addition to synthetic geo-temporal features, Chicago weather information was gathered and added to the model's input. Deep Artificial Neural Networks and SVMs were used for this task:
 
@@ -109,6 +115,8 @@ Finally, the customers were clustered based on their demand patterns. Thus, enab
 <div><img src="images/aa_heidelberg_clusters.png?raw=true"/></div>
 
 <div><img src="images/aa_marburg_clusters.png?raw=true"/></div>
+
+---
 
 ---
 
