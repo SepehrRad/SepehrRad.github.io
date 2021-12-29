@@ -145,7 +145,7 @@ Finally, the customers were clustered based on their demand patterns. Thus, enab
 
 #### Final B.Sc. Practical Project in Cooperation with innovas GmbH - Cologne University of Applied Sciences
 
-As part of my final practical project work at the Cologne University of Applied Sciences, I developed and implemented a BI concept for an online platform of the innovas company delivering data to different health insurance companies.
+As part of my final practical project work at the Cologne University of Applied Sciences, I developed and implemented a BI concept for an online platform of the innovas GmbH delivering data to different health insurance companies.
 
 In the first phase of the project, I carried out a requirements analysis for insurance companies involved based on a goal-oriented approach using i*-framework.
 
