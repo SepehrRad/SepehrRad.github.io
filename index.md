@@ -88,13 +88,24 @@ Showing how fleet operators can make use of increasingly ubiquitous real-time da
 
 Five key performance indicators (KPIs) were developed to track and improve the business service level. These provided indications of the current operations and how well the fleet is doing in terms of utilization, revenue, coverage, and activations:
 
-<div><img src="images/aa_violin_plots.png?raw=true"/></div>
+<div class="row">
+  <div class="column">
+    <img src="images/aa_violin_plots.png?raw=true" style="width:100%"/>
+  </div>
+  <div class="column">
+    <img src="images/aa_utilization.png?raw=true" style="width:100%"/>
+  </div>
+</div>
 
-<div><img src="images/aa_utilization.png?raw=true"/></div>
+<div class="row">
+  <div class="column">
+    <img src="images/aa_seasonalities.png?raw=true" style="width:100%"/>
+  </div>
+  <div class="column">
+    <img src="images/aa_heidelberg_pickups.png?raw=true" style="width:100%"/>
+  </div>
+</div>
 
-<div><img src="images/aa_seasonalities.png?raw=true"/></div>
-
-<div><img src="images/aa_heidelberg_pickups.png?raw=true"/></div>
 
 Furthermore, three different prediction models were built using two heterogeneous data sets of Nextbike users in Heidelberg and Marburg from 2019. The customer demand was modeled in daily and hourly resolution using Time Series Analysis (Facebook Prophet), Ridge & Lasso Regression, and Random Forest Regressor (XGBoost). Based on the daily result we chose XGBoost model for final deployment.
 
@@ -112,9 +123,14 @@ Furthermore, three different prediction models were built using two heterogeneou
 
 Finally, the customers were clustered based on their demand patterns. Thus, enabling NextBike to identify trip types as well customer types:
 
-<div><img src="images/aa_heidelberg_clusters.png?raw=true"/></div>
-
-<div><img src="images/aa_marburg_clusters.png?raw=true"/></div>
+<div class="row">
+  <div class="column">
+    <img src="images/aa_heidelberg_clusters.png?raw=true" style="width:100%"/>
+  </div>
+  <div class="column">
+    <img src="images/aa_marburg_clusters.png?raw=true" style="width:100%"/>
+  </div>
+</div>
 
 ---
 
