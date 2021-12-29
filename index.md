@@ -33,11 +33,11 @@ The goal of the second part of the project was getting a better understanding of
 | 5 | `Daytime Medium Distance Customers` | 9 -15 | 2 - 4 | 10 - 13 | 19.0 |
 
 <div class="row">
-  <div class="column">
-    <img src="images/AAA_BoxPlot_SoftClustering.png?raw=true"/>
+  <div class="column" style="float: left; width: 50%; padding: 5px;">
+    <img src="images/AAA_BoxPlot_SoftClustering.png?raw=true" style="width:100%"/>
   </div>
-  <div class="column">
-    <img src="images/AAA_Scatter_SoftClustering.png?raw=true"/>
+  <div class="column" style="float: left; width: 50%; padding: 5px;">
+    <img src="images/AAA_Scatter_SoftClustering.png?raw=true" style="width:100%"/>
   </div>
 </div>
 
