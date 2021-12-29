@@ -2,12 +2,12 @@
 
 ---
 
-## Data Science
+## Data Science & Business Intelligence
 ---
 
 ### Chicago Taxi Trip Pattern Analysis
 
-#### Final Advanced Analytics & Application Course Project - University of Cologne
+#### Final Advanced Analytics & Application Course Project (M.Sc.) - University of Cologne
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/SepehrRad/aaa21)
 
@@ -48,7 +48,7 @@ Finally, in the fourth section of the project, the charging stations allocation 
 
 ### Impact of Covid-19 on New York Cab Industry & Public Mobility
 
-#### Final Programming Data Science Course Project - University of Cologne
+#### Final Programming Data Science Course Project (M.Sc.) - University of Cologne
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/SepehrRad/pds21)
 
@@ -74,7 +74,7 @@ In the second section, the prediction modeling part, three models were built to 
 
 ### Sustainable Mobility in Heidelberg & Marburg
 
-#### Final Analytics & Application Course Project - University of Cologne
+#### Final Analytics & Application Course Project (M.Sc.) - University of Cologne
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](/https://github.com/SepehrRad/analyticsAndapps)
 
@@ -90,7 +90,7 @@ Five key performance indicators (KPIs) were developed to track and improve the b
 
 <div><img src="images/aa_heidelberg_pickups.png?raw=true"/></div>
 
-Furthermore, three different prediction models were built using two heterogeneous data sets of Nextbike users in Heidelberg and Marburg from 2019. The customer demand was modeled in daily and hourly resolution using Time Series Analysis (Facebook Prophet), Ridge & Lasso Regression, and Random Forest Regressor (XGBoost). Based on the daily result we choose XGBoost model for final deployment.
+Furthermore, three different prediction models were built using two heterogeneous data sets of Nextbike users in Heidelberg and Marburg from 2019. The customer demand was modeled in daily and hourly resolution using Time Series Analysis (Facebook Prophet), Ridge & Lasso Regression, and Random Forest Regressor (XGBoost). Based on the daily result we chose XGBoost model for final deployment.
 
 | City | Model | MAE | MAPE |
 | --- | --- | --- | --- |
@@ -112,23 +112,37 @@ Finally, the customers were clustered based on their demand patterns. Thus, enab
 
 ---
 
-## Business Intelligence
+### Creating & Implementing a Business Intelligence (BI) Concept for an Enterprise Web Application
+
+#### Final B.Sc. Practical Project in Cooperation with innovas GmbH - Cologne University of Applied Sciences
+
+As part of my final practical project work at the Cologne University of Applied Sciences, I developed and implemented a BI concept for an online platform of the innovas company delivering data to different health insurance companies.
+
+In the first phase of the project, I carried out a requirements analysis for insurance companies involved based on a goal-oriented approach using i*-framework.
+
+After defining the use cases as well as the organizational and technical constraints, the implementation concept was introduced which included an ETL process written both in Java and Python that transferred the data from the operational database into multidimensional data lakes. Furthermore, PowerBI was used for analysis, reporting, and interactive visualizations.
+
+Finally, since the data was highly sensitive according to the General Data Protection Regulation (DSGVO in German) various security measures were taken to ensure the security of data storage and transport. E.g. asymmetric encryption and secure data vaults.
+
+The work product was successfully deployed and is in use since 2020.
+
 
 ---
 
-### Creating an ETL Pipeline for an Enterprise Web Application
-
-Final Bachelor project in cooperation with Innovas GmbH
-
-**Project Description:** Delivering Encrypted Data to
+## IT Governance & Consulting
 
 ---
 
 ### Development of Business Intelligence Strategies for Small and Medium-sized Companies in the Health Care Industry
 
-Bachelor thesis in cooperation with Innovas GmbH
+#### Bachelor Thesis in Cooperation with innovas GmbH - Cologne University of Applied Sciences
 
-**Project Description:** Description
+The aim of my bachelor thesis was to define guidelines for the development of BI strategies for
+Small- and Medium-sized Enterprises (SMEs) in the healthcare industry.
+
+To achieve this goal, I developed an ontology of BI strategy, with the help of which the BI strategy is semantically defined and its most important fields of action are introduced. By applying this methodology one can ensure consistent use of language that facilitates the representation of complex relationships between terms in this domain. E.g. BI Strategy, IT Strategy, Business Strategy, IT Governance. Thus, helping SMEs orienting themselves in the complex BI landscape.
+
+Finally, based on the developed ontology and extensive literature review, I presented _eight guidelines_ according to the TOGAF-Format (Statement, Rationale, Implications), which facilitates the development of a BI strategy for any SME in the healthcare industry.
 
 ---
 
