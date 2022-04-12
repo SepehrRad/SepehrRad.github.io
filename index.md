@@ -1,6 +1,7 @@
 # Project Portfolio
 
 ---
+I am an Information Systems graduate student (M.Sc.) with experience and passion for machine learning, cloud-native web development, cloud computing & digital transformations.
 
 This portfolio page shows an overview of some of my projects during my professional work as well as my academic studies. These projects cover following topics:
 - Data Science & Business Intelligence
