@@ -150,7 +150,7 @@ Finally, the customers were clustered based on their demand patterns. Thus, enab
 
 ### Creating & Implementing a Business Intelligence (BI) Concept for an Enterprise Web Application
 
-#### Final B.Sc. Practical Project in Cooperation with innovas GmbH - Cologne University of Applied Sciences
+#### Final B.Sc. Practical Project in Cooperation with innovas GmbH (.MSG Group) - Cologne University of Applied Sciences
 
 As part of my final practical project work at the Cologne University of Applied Sciences, I developed and implemented a BI concept for an online platform of the innovas GmbH delivering data to different health insurance companies.
 
@@ -171,7 +171,7 @@ The work product was successfully deployed and is in use since 2020.
 
 ### Development of Business Intelligence Strategies for Small and Medium-sized Companies in the Health Care Industry
 
-#### Bachelor Thesis in Cooperation with innovas GmbH - Cologne University of Applied Sciences
+#### Bachelor Thesis in Cooperation with innovas GmbH (.MSG Group) - Cologne University of Applied Sciences
 
 The aim of my bachelor thesis was to define guidelines for the development of BI strategies for
 Small- and Medium-sized Enterprises (SMEs) in the healthcare industry.
