@@ -12,7 +12,7 @@ This portfolio page shows an overview of some of my projects during my professio
 ## Data Science & Business Intelligence
 ---
 
-### Chicago Taxi Trip Pattern Analysis
+### Big Data Analytics (~35 Million Data Points) - Chicago Taxi Trip Pattern 
 
 #### Final Advanced Analytics & Application Course Project (M.Sc.) - University of Cologne
 
@@ -64,7 +64,7 @@ Finally, in the fourth section of the project, the charging stations allocation 
 
 ---
 
-### Impact of Covid-19 on New York Cab Industry & Public Mobility
+### Big Data Analytics (~20 Million Data Points) - Impact of Covid-19 on New York Cab Industry & Public Mobility
 
 #### Final Programming Data Science Course Project (M.Sc.) - University of Cologne
 
